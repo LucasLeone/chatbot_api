@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=chatbot_api
+POSTGRES_USER=TtTXFsprNSyNmqfqNavOGjcDpxQEuqaj
+POSTGRES_PASSWORD=CwwvZAHCjz5hhDz6QqeGvKrOROuD1JGNeaSy4WNAATwkSz6xReyDrNxcbKQ3T2Bm
