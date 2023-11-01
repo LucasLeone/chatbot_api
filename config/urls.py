@@ -16,6 +16,7 @@ urlpatterns = [
     path("users/", include("chatbot_api.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
+    path('chatbot/', include('chatbot_api.chatbot.urls', namespace='chatbot'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # API URLS
